@@ -1,16 +1,65 @@
-# React + Vite
+# React Stopwatch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple stopwatch built with React and CSS. This project helps practice React hooks and timer functionality.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Start the stopwatch
+- Stop and pause the stopwatch
+- Reset the timer to zero
+- Display minutes and seconds
+- Simple and clean UI
+- Separate CSS file for styling
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- CSS
+- `useState`
+- `useEffect`
+- `setInterval`
+- `clearInterval`
 
-## Expanding the ESLint configuration
+## Installation and Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+
+   ```bash
+   git clone YOUR_REPOSITORY_URL
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd YOUR_PROJECT_FOLDER
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in your terminal.
+
+## How It Works
+
+- **useState:** Stores the timer value and running state.
+- **useEffect:** Manages the timer interval.
+- **setInterval:** Updates the timer at regular intervals.
+- **clearInterval:** Stops the interval when the stopwatch is paused or the component is cleaned up.
+
+## Learning Purpose
+
+This project was created to practice React state management, effects, event handling, and timer functionality.
+
+## Author
+
+Jay
