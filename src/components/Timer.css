@@ -1,0 +1,104 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.timer-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4f0;
+  font-family: Arial, sans-serif;
+}
+
+.timer-box {
+  width: 360px;
+  padding: 35px 25px;
+  background: #fff;
+  border: 1px solid #e5e5df;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.timer-box h2 {
+  color: #292929;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.subtitle {
+  margin-top: 8px;
+  color: #888;
+  font-size: 14px;
+}
+
+.timer-display {
+  margin: 35px 0;
+  padding: 25px 10px;
+  background: #f6f7f4;
+  border-radius: 10px;
+  color: #304d3b;
+  font-size: 42px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 2px;
+}
+
+.timer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.timer-buttons button {
+  padding: 11px 17px;
+  border: none;
+  border-radius: 7px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.start-btn {
+  background: #304d3b;
+  color: white;
+}
+
+.stop-btn {
+  background: #e9e9e4;
+  color: #333;
+}
+
+.reset-btn {
+  background: #f5e8e6;
+  color: #9b4037;
+}
+
+.start-btn:hover {
+  background: #243b2d;
+}
+
+.stop-btn:hover {
+  background: #deded8;
+}
+
+.reset-btn:hover {
+  background: #eedbd8;
+}
+
+@media (max-width: 400px) {
+  .timer-box {
+    width: 92%;
+    padding: 25px 15px;
+  }
+
+  .timer-display {
+    font-size: 34px;
+  }
+
+  .timer-buttons button {
+    padding: 10px 14px;
+  }
+}
